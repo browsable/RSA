@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/js/jsencrypt.min.js"></script>
+    <script src="/js/index.js"></script>
+</head>
+<body>
+    아이디와 패스워드를 입력하세요!!<br><br>
+    <form action="loginProcess", method="post">
+        ID : <input type="text" id = "uID" name="uID">
+        PW : <input type="text" id = "uPW" name="uPW">
+        <input type="hidden" id="pkey" value = "<%=key%>">
+        <input type="button" value="서버로 전송"
+                onclick="sendData()">
+    </form>
+</body>
+</html>

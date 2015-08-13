@@ -1,0 +1,12 @@
+{
+  "name": "RSA-application",
+  "version": "0.0.1",
+  "dependencies" : {
+        "express": "*",
+        "body-parser": "*",
+        "ejs": "*",
+        "mysql": "*",
+        "generic-pool" : "*",
+        "node-rsa" : "*"
+  }
+}
